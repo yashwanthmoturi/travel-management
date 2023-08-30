@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+div.a {
+  font-size: 150%;
+}
+span.a {
+  display: inline; /* the default for span */
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: yellow; 
+}
+#dd {
+  font-size: 150%; 
+  padding: 8px 16px;
+}
+#cars {
+  font-size: 150%; 
+  padding: 8px 16px;
+}
+</style>
+</head>
+<body>
+<form action="LogOut">
+<div style="background-color:#ff3333 ;margin:0px;" id="dd">
+
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  WELCOME!!!!  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+ &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+ 
+
+<input type="submit" value="LOGOUT" >
+</div>
+</form>
+<div>
+<form action="Home" method="post">
+<br>
+  <select id="cars" name="place1">
+  <option value="" disabled selected>FROM</option>
+    <option value="vijaywada">VIJAYAWADA</option>
+    <option value="hyderabad">HYDERABAD</option>
+    <option value="banglore">BANGLORE</option>
+    <option value="delhi">DELHI</option>
+  </select>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+  <select id="cars" name="place2">
+  <option value="" disabled selected>TO</option>
+    <option value="vijayawada">VIJAYAWADA</option>
+    <option value="hyderabad">HYDERABAD</option>
+    <option value="banglore">BANGLORE</option>
+    <option value="delhi">DELHI</option>
+  </select><br><br><br><br>
+    <div class="a">DATE OF JOURNEY:<input type="date" id="travelDate" name="journey" style="font-size: 110%">
+    <br><br>
+    NO OF TICKETS:<input type="number" id="cars" name="nooftickets">
+    (max tickets of 20)<br><br>
+    <br><input type="submit" value="Search" style="font-size: 110%"> </div>   
+</form>
+</div>
+</body>
+</html>
